@@ -10,14 +10,14 @@ interface:
     openNewTab: true
   endpointsMenu: true
   modelSelect: true
-  parameters: false
+  parameters: true
   sidePanel: true
-  presets: false
+  presets: true
   prompts: true
-  bookmarks: false
-  multiConvo: false
+  bookmarks: true
+  multiConvo: true
   agents: true
-  runCode: false
+  runCode: true
 mcpServers:
   paa:
     type: sse
