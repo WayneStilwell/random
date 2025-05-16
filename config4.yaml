@@ -3,7 +3,7 @@ version: 1.2.1
 cache: true
 
 interface:
-  customWelcome: 'Welcome to LibreChat! Enjoy your experience.'
+  customWelcome: "Hi, I'm Gabriel! How can I help you?"
   # Privacy policy settings
   privacyPolicy:
     externalUrl: 'https://librechat.ai/privacy-policy'
@@ -25,4 +25,9 @@ mcpServers:
     timeout: 60000
     headers:
       X-User-ID: '{{LIBRECHAT_USER_ID}}'
-
+endpoints:
+  bedrock:
+    titleModel: "anthropic.claude-3-haiku-20240307-v1:0"
+    streamRate: 35
+    availableRegions:
+      - "us-east-1"
