@@ -65,7 +65,7 @@ interface:
 mcpServers:
   paa:
     type: sse
-    url: https://pr629.sell.rvtrader.com/sse
+    url: https://pr629.sell.rvtrader.com/api/sse
     timeout: 60000 # 1 minute timeout for this server, this is the default timeout for MCP servers.
     headers:
       X-User-ID: '{{LIBRECHAT_USER_ID}}'
