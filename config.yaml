@@ -1,3 +1,7 @@
+version: 1.2.1
+
+cache: true
+
 interface:
   customWelcome: 'Welcome to LibreChat! Enjoy your experience.'
   # Privacy policy settings
