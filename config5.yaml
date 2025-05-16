@@ -27,7 +27,7 @@ mcpServers:
       X-User-ID: '{{LIBRECHAT_USER_ID}}'
 endpoints:
   bedrock:
-    titleModel: "anthropic.claude-3-haiku-20240307-v1:0"
+    titleModel: "cohere.command-r-plus-v1:0"
     streamRate: 35
     availableRegions:
       - "us-east-1"
