@@ -25,6 +25,7 @@ mcpServers:
     timeout: 60000
     headers:
       X-User-ID: '{{LIBRECHAT_USER_ID}}'
+    chatMenu: true
 endpoints:
   bedrock:
     titleModel: "us.anthropic.claude-3-5-haiku-20241022-v1:0"
