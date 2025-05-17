@@ -11,11 +11,11 @@ interface:
   endpointsMenu: true
   modelSelect: true
   parameters: true
-  sidePanel: true
+  sidePanel: false
   presets: true
   prompts: true
-  bookmarks: true
-  multiConvo: true
+  bookmarks: false
+  multiConvo: false
   agents: true
   runCode: true
 mcpServers:
